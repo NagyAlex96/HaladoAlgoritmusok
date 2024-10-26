@@ -12,7 +12,7 @@ namespace HaladoAlgoritmusok
             //BHillClimbing();
             //MazeHill();
             //Tabu();
-            PhysicalMethod();
+            //PhysicalMethod();
 
 
 
