@@ -2,6 +2,8 @@
 using HaladoAlgoritmusok.HillClimbing;
 using HaladoAlgoritmusok.PhysicalMethod;
 using HaladoAlgoritmusok.Tabu;
+using System;
+using System.Collections.Generic;
 
 namespace HaladoAlgoritmusok
 {
@@ -9,7 +11,7 @@ namespace HaladoAlgoritmusok
     {
         static void Main(string[] args)
         {
-            //BHillClimbing();
+            //BHillClimbing(); //sokat pörög
             //MazeHill();
             //Tabu();
             //PhysicalMethod();
@@ -73,6 +75,7 @@ namespace HaladoAlgoritmusok
         {
             // Példa használat
             //BasicHillClimbing bHill = new BasicHillClimbing();
+            //Console.WriteLine("Elindult");
             int x0 = 1;
             int xOut = BasicHillClimbing.HillClimbing(y => y * x0, x0);
             Console.WriteLine("Eredmény: " + xOut);
